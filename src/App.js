@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Environment Variable TEST_V: {process.env.TEST_V || 'no value'}
+        Environment Variables: {JSON.stringify(process.env)}
       </header>
     </div>
   );
